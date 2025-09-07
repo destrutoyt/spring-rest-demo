@@ -11,44 +11,43 @@ The application showcases key backend development skills, including:
 - 📦 **Data serialization with Jackson (JSON)**  
 - ⚠️ **Exception handling & validation**  
 - 🏗️ **Layered architecture (Controller → Service → Repository)**  
+- 🛠️ **API testing with Postman**
 ---
 
-## Tech Stack
-- **Java 21**
-- **Spring Framework 6 / Spring Boot**
-- **MySQL**
+## 🚀 Tech Stack
+- ☕ **Java 21**
+- 🌱 **Spring Boot 3 / Spring Framework 6**
+- 🛢️ **MySQL**
 
-## Dependencies
-- **Spring Web** – RESTful API development
-- **Spring Data JPA** – ORM and database queries
-- **MySQL Connector** – JDBC driver for MySQL
-- **Jackson** – JSON serialization/deserialization
+## 📦 Dependencies
+- 🌐 **Spring Web** – RESTful API development  
+- 🗄️ **Spring Data JPA** – ORM and database queries  
+- 🔗 **MySQL Connector/J** – JDBC driver for MySQL  
+- 📦 **Jackson** – JSON serialization/deserialization  
+- 🧪 **Spring Boot Starter Test** – unit & integration testing  
+
+## 🛠️ Development Tools
+- 🧑‍💻 **VS Code** – IDE for coding  
+- 🛠️ **Postman** – testing and documenting REST endpoints  
+- 🔗 **Git & GitHub** – version control & collaboration  
 
 ---
 
-## Project Details
+## 📂 Project Details
 
-### API Requirements
-The API provides a simple **Employee Directory** service. REST clients can:  
-- Get a list of employees  
-- Get a single employee by ID  
-- Add a new employee  
-- Update an existing employee  
-- Delete an employee  
+### 📌 API Requirements
+The API provides a simple **Employee Directory** service where REST clients can:  
+- 📋 Get a list of employees  
+- 🔍 Get a single employee by ID  
+- ➕ Add a new employee  
+- ✏️ Update an existing employee  
+- ❌ Delete an employee  
 
-### API Endpoints
+### 🌐 API Endpoints
 | HTTP Method | URL | CRUD Action | Description |
 | ----------- | --- | ----------- | ----------- |
-| **POST**   | `/api/employees` | **Create** | Add a new employee |
-| **GET**    | `/api/employees` | **Read**   | Fetch all employees |
-| **GET**    | `/api/employees/{employeeID}` | **Read** | Fetch employee by ID |
-| **PUT**    | `/api/employees/{employeeID}` | **Update** | Update employee details |
-| **DELETE** | `/api/employees/{employeeID}` | **Delete** | Remove employee |
-
----
-
-## Highlights
-- Built with **clean code practices** and **layered architecture**  
-- Demonstrates **RESTful design principles**  
-- Showcases **real-world backend developer skills** for enterprise Java applications  
-- Can be extended with **authentication & authorization (Spring Security)** or **API documentation (Swagger/OpenAPI)**  
+| **POST**   | `/api/employees` | **Create** | ➕ Add a new employee |
+| **GET**    | `/api/employees` | **Read**   | 📋 Fetch all employees |
+| **GET**    | `/api/employees/{employeeID}` | **Read** | 🔍 Fetch employee by ID |
+| **PUT**    | `/api/employees/{employeeID}` | **Update** | ✏️ Update employee details |
+| **DELETE** | `/api/employees/{employeeID}` | **Delete** | ❌ Remove employee |
